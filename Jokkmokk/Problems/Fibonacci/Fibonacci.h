@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, FibonacciInitType){
+    FibonacciInitTypeLoop,
+    FibonacciInitTypeRecursion
+};
+
 @interface Fibonacci : NSObject
 
+- (instancetype)initWithMode:(FibonacciInitType)mode;
+- (NSInteger)findNthNumber:(NSInteger)nthNumber;
 @end

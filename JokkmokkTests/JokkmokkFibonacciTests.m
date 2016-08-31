@@ -7,16 +7,19 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Fibonacci.h"
 
 @interface JokkmokkFibonacciTests : XCTestCase
-
+@property (nonatomic, strong) Fibonacci *fiboLoop;
+@property (nonatomic, strong) Fibonacci *fiboRecursion;
 @end
 
 @implementation JokkmokkFibonacciTests
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.fiboLoop = [[Fibonacci alloc] initWithMode:FibonacciInitTypeLoop];
+    self.fiboRecursion = [[Fibonacci alloc] initWithMode:FibonacciInitTypeRecursion];
 }
 
 - (void)tearDown {
@@ -24,16 +27,21 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testFiboRecursion {
+    XCTAssertTrue([self.fiboRecursion findNthNumber:1] == 1);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:2] == 1);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:3] == 2);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:7] == 13);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:11] == 89);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:14] == 377);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testFiboLoop{
+    XCTAssertTrue([self.fiboRecursion findNthNumber:1] == 1);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:2] == 1);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:3] == 2);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:7] == 13);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:11] == 89);
+    XCTAssertTrue([self.fiboRecursion findNthNumber:14] == 377);
 }
-
 @end
