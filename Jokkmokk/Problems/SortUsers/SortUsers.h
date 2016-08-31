@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface SortUsers : NSObject
-
+- (NSArray *)sortUsers:(NSArray *)users;
 @end

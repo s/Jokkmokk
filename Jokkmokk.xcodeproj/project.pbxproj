@@ -20,6 +20,8 @@
 		B3F2618E1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F2618D1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m */; };
 		B3F261921D76E7BB006D0771 /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F261911D76E7BB006D0771 /* Fibonacci.m */; };
 		B3F261971D76E8F9006D0771 /* JokkmokkFibonacciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F261961D76E8F9006D0771 /* JokkmokkFibonacciTests.m */; };
+		B3F2619B1D76F5CE006D0771 /* SortUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F2619A1D76F5CE006D0771 /* SortUsers.m */; };
+		B3F2619F1D774DAD006D0771 /* JokkmokkSortUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F2619E1D774DAD006D0771 /* JokkmokkSortUserTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		B3F261901D76E7BB006D0771 /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fibonacci.h; path = Problems/Fibonacci/Fibonacci.h; sourceTree = "<group>"; };
 		B3F261911D76E7BB006D0771 /* Fibonacci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fibonacci.m; path = Problems/Fibonacci/Fibonacci.m; sourceTree = "<group>"; };
 		B3F261961D76E8F9006D0771 /* JokkmokkFibonacciTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkFibonacciTests.m; sourceTree = "<group>"; };
+		B3F261991D76F5CE006D0771 /* SortUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortUsers.h; path = Problems/SortUsers/SortUsers.h; sourceTree = "<group>"; };
+		B3F2619A1D76F5CE006D0771 /* SortUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SortUsers.m; path = Problems/SortUsers/SortUsers.m; sourceTree = "<group>"; };
+		B3F2619E1D774DAD006D0771 /* JokkmokkSortUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkSortUserTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +170,7 @@
 		B3D43E291D76C77C006D37A8 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				B3F261981D76F5AD006D0771 /* SortUsers */,
 				B3F2618F1D76E7A9006D0771 /* Fibonacci */,
 				B3C7A1B71D76E24800C36904 /* IntegerToAscii */,
 				B3D43E311D76CB5F006D37A8 /* BalancedParanthesises */,
@@ -207,6 +213,7 @@
 				B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */,
 				B3F2618D1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m */,
 				B3F261961D76E8F9006D0771 /* JokkmokkFibonacciTests.m */,
+				B3F2619E1D774DAD006D0771 /* JokkmokkSortUserTests.m */,
 			);
 			path = JokkmokkTests;
 			sourceTree = "<group>";
@@ -218,6 +225,15 @@
 				B3F261911D76E7BB006D0771 /* Fibonacci.m */,
 			);
 			name = Fibonacci;
+			sourceTree = "<group>";
+		};
+		B3F261981D76F5AD006D0771 /* SortUsers */ = {
+			isa = PBXGroup;
+			children = (
+				B3F261991D76F5CE006D0771 /* SortUsers.h */,
+				B3F2619A1D76F5CE006D0771 /* SortUsers.m */,
+			);
+			name = SortUsers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F2619B1D76F5CE006D0771 /* SortUsers.m in Sources */,
 				B3D43E301D76C9A6006D37A8 /* Stack.m in Sources */,
 				B3D43E151D76C70E006D37A8 /* ViewController.m in Sources */,
 				B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */,
@@ -335,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F2618E1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m in Sources */,
+				B3F2619F1D774DAD006D0771 /* JokkmokkSortUserTests.m in Sources */,
 				B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */,
 				B3F261971D76E8F9006D0771 /* JokkmokkFibonacciTests.m in Sources */,
 			);

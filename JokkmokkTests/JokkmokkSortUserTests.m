@@ -7,16 +7,17 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SortUsers.h"
 
 @interface JokkmokkSortUserTests : XCTestCase
-
+@property (nonatomic, strong) SortUsers *sorter;
 @end
 
 @implementation JokkmokkSortUserTests
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.sorter = [SortUsers new];
 }
 
 - (void)tearDown {
@@ -24,16 +25,31 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testSortUsers {
+    NSArray *users = @[@[@"Jervie",@"12",@"M"],
+                       @[@"Jaimy",@"11",@"F"],
+                       @[@"Tony",@"23",@"M"],
+                       @[@"Janey",@"11",@"F"],
+                       @[@"Jonathan",@"18",@"M"],
+                       @[@"Ashley",@"16",@"F"],
+                       @[@"Mary",@"20",@"F"],
+                       @[@"John",@"10",@"M"],
+                       @[@"Bruce",@"12",@"M"]];
+    
+    NSArray *alreadySortedUsers = @[
+                                    @[@"John",@"10",@"M"],
+                                    @[@"Jaimy",@"11",@"F"],
+                                    @[@"Janey",@"11",@"F"],
+                                    @[@"Jervie",@"12",@"M"],
+                                    @[@"Bruce",@"12",@"M"],
+                                    @[@"Ashley",@"16",@"F"],
+                                    @[@"Jonathan",@"18",@"M"],
+                                    @[@"Mary",@"20",@"F"],
+                                    @[@"Tony",@"23",@"M"]];
+    
+    NSArray *sortedUsers = [self.sorter sortUsers:users];
+    NSLog(@"%@", sortedUsers);
+    XCTAssertTrue([alreadySortedUsers isEqualToArray:sortedUsers]);
 }
 
 @end
