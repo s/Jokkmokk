@@ -7,9 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "IntegerToAscii.h"
 
 @interface JokmokkIntegerToAsciiTests : XCTestCase
-
 @end
 
 @implementation JokmokkIntegerToAsciiTests
@@ -25,15 +25,10 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+    XCTAssertTrue([[IntegerToAscii convertIntegerToString:12] isEqualToString:@"12"]);
+    XCTAssertTrue([[IntegerToAscii convertIntegerToString:-12] isEqualToString:@"-12"]);
+    XCTAssertTrue([[IntegerToAscii convertIntegerToString:0] isEqualToString:@"0"]);
+    XCTAssertTrue([[IntegerToAscii convertIntegerToString:9051] isEqualToString:@"9051"]);
 }
 
 @end

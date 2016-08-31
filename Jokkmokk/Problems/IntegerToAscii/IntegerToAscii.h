@@ -10,4 +10,6 @@
 
 @interface IntegerToAscii : NSObject
 
++(NSString *)convertIntegerToString:(NSInteger)integer;
+
 @end

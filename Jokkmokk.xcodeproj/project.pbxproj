@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3C7A1BA1D76E38F00C36904 /* IntegerToAscii.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C7A1B91D76E38F00C36904 /* IntegerToAscii.m */; };
 		B3D43E0F1D76C70E006D37A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E0E1D76C70E006D37A8 /* main.m */; };
 		B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E111D76C70E006D37A8 /* AppDelegate.m */; };
 		B3D43E151D76C70E006D37A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E141D76C70E006D37A8 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		B3D43E301D76C9A6006D37A8 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E2F1D76C9A6006D37A8 /* Stack.m */; };
 		B3D43E341D76CB86006D37A8 /* BalancedParanthesises.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E331D76CB86006D37A8 /* BalancedParanthesises.m */; };
 		B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */; };
+		B3F2618E1D76E591006D0771 /* JokmokkIntegerToAsciiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F2618D1D76E591006D0771 /* JokmokkIntegerToAsciiTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3C7A1B81D76E38F00C36904 /* IntegerToAscii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntegerToAscii.h; path = Problems/IntegerToAscii/IntegerToAscii.h; sourceTree = "<group>"; };
+		B3C7A1B91D76E38F00C36904 /* IntegerToAscii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntegerToAscii.m; path = Problems/IntegerToAscii/IntegerToAscii.m; sourceTree = "<group>"; };
 		B3D43E0A1D76C70E006D37A8 /* Jokkmokk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokkmokk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D43E0E1D76C70E006D37A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3D43E101D76C70E006D37A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		B3D43E391D76D066006D37A8 /* JokkmokkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokkmokkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokkmokkBalancedParanthesisesTests.m; sourceTree = "<group>"; };
 		B3D43E3D1D76D066006D37A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F2618D1D76E591006D0771 /* JokmokkIntegerToAsciiTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokmokkIntegerToAsciiTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3C7A1B71D76E24800C36904 /* IntegerToAscii */ = {
+			isa = PBXGroup;
+			children = (
+				B3C7A1B81D76E38F00C36904 /* IntegerToAscii.h */,
+				B3C7A1B91D76E38F00C36904 /* IntegerToAscii.m */,
+			);
+			name = IntegerToAscii;
+			sourceTree = "<group>";
+		};
 		B3D43E011D76C70E006D37A8 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +160,7 @@
 		B3D43E291D76C77C006D37A8 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				B3C7A1B71D76E24800C36904 /* IntegerToAscii */,
 				B3D43E311D76CB5F006D37A8 /* BalancedParanthesises */,
 				B3D43E2D1D76C97F006D37A8 /* Stack */,
 				B3D43E2B1D76C8DB006D37A8 /* StackProtocol */,
@@ -184,6 +199,7 @@
 			children = (
 				B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */,
 				B3D43E3D1D76D066006D37A8 /* Info.plist */,
+				B3F2618D1D76E591006D0771 /* JokmokkIntegerToAsciiTests.m */,
 			);
 			path = JokkmokkTests;
 			sourceTree = "<group>";
@@ -291,6 +307,7 @@
 				B3D43E301D76C9A6006D37A8 /* Stack.m in Sources */,
 				B3D43E151D76C70E006D37A8 /* ViewController.m in Sources */,
 				B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */,
+				B3C7A1BA1D76E38F00C36904 /* IntegerToAscii.m in Sources */,
 				B3D43E341D76CB86006D37A8 /* BalancedParanthesises.m in Sources */,
 				B3D43E0F1D76C70E006D37A8 /* main.m in Sources */,
 			);
@@ -300,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F2618E1D76E591006D0771 /* JokmokkIntegerToAsciiTests.m in Sources */,
 				B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +501,7 @@
 				B3D43E231D76C70E006D37A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D43E401D76D066006D37A8 /* Build configuration list for PBXNativeTarget "JokkmokkTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +510,7 @@
 				B3D43E421D76D066006D37A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
