@@ -34,6 +34,7 @@
     if (nthNumber == 1 || nthNumber == 2){
         return 1;
     }else{
+        // Memoization can be added to improve time complexity of recursive iteration here.
         return [self findNthNumber:nthNumber-1] + [self findNthNumber:nthNumber-2];
     }
 }
