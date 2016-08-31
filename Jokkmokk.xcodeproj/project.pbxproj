@@ -13,7 +13,20 @@
 		B3D43E181D76C70E006D37A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D43E161D76C70E006D37A8 /* Main.storyboard */; };
 		B3D43E1A1D76C70E006D37A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D43E191D76C70E006D37A8 /* Assets.xcassets */; };
 		B3D43E1D1D76C70E006D37A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D43E1B1D76C70E006D37A8 /* LaunchScreen.storyboard */; };
+		B3D43E301D76C9A6006D37A8 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E2F1D76C9A6006D37A8 /* Stack.m */; };
+		B3D43E341D76CB86006D37A8 /* BalancedParanthesises.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E331D76CB86006D37A8 /* BalancedParanthesises.m */; };
+		B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D43E3E1D76D066006D37A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D43E021D76C70E006D37A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D43E091D76C70E006D37A8;
+			remoteInfo = Jokkmokk;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B3D43E0A1D76C70E006D37A8 /* Jokkmokk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokkmokk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +39,25 @@
 		B3D43E191D76C70E006D37A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D43E1C1D76C70E006D37A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D43E1E1D76C70E006D37A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D43E2C1D76C94E006D37A8 /* StackProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StackProtocol.h; path = Problems/StackProtocol/StackProtocol.h; sourceTree = "<group>"; };
+		B3D43E2E1D76C9A6006D37A8 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Problems/Stack/Stack.h; sourceTree = "<group>"; };
+		B3D43E2F1D76C9A6006D37A8 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Problems/Stack/Stack.m; sourceTree = "<group>"; };
+		B3D43E321D76CB86006D37A8 /* BalancedParanthesises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BalancedParanthesises.h; path = Problems/BalancedParanthesis/BalancedParanthesises.h; sourceTree = "<group>"; };
+		B3D43E331D76CB86006D37A8 /* BalancedParanthesises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BalancedParanthesises.m; path = Problems/BalancedParanthesis/BalancedParanthesises.m; sourceTree = "<group>"; };
+		B3D43E391D76D066006D37A8 /* JokkmokkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokkmokkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokkmokkBalancedParanthesisesTests.m; sourceTree = "<group>"; };
+		B3D43E3D1D76D066006D37A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B3D43E071D76C70E006D37A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D43E361D76D066006D37A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				B3D43E0C1D76C70E006D37A8 /* Jokkmokk */,
+				B3D43E3A1D76D066006D37A8 /* JokkmokkTests */,
 				B3D43E0B1D76C70E006D37A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B3D43E0A1D76C70E006D37A8 /* Jokkmokk.app */,
+				B3D43E391D76D066006D37A8 /* JokkmokkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,16 +146,46 @@
 		B3D43E291D76C77C006D37A8 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
-				B3D43E2B1D76C8DB006D37A8 /* New Group */,
+				B3D43E311D76CB5F006D37A8 /* BalancedParanthesises */,
+				B3D43E2D1D76C97F006D37A8 /* Stack */,
+				B3D43E2B1D76C8DB006D37A8 /* StackProtocol */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
 		};
-		B3D43E2B1D76C8DB006D37A8 /* New Group */ = {
+		B3D43E2B1D76C8DB006D37A8 /* StackProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				B3D43E2C1D76C94E006D37A8 /* StackProtocol.h */,
 			);
-			name = "New Group";
+			name = StackProtocol;
+			sourceTree = "<group>";
+		};
+		B3D43E2D1D76C97F006D37A8 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				B3D43E2E1D76C9A6006D37A8 /* Stack.h */,
+				B3D43E2F1D76C9A6006D37A8 /* Stack.m */,
+			);
+			name = Stack;
+			sourceTree = "<group>";
+		};
+		B3D43E311D76CB5F006D37A8 /* BalancedParanthesises */ = {
+			isa = PBXGroup;
+			children = (
+				B3D43E321D76CB86006D37A8 /* BalancedParanthesises.h */,
+				B3D43E331D76CB86006D37A8 /* BalancedParanthesises.m */,
+			);
+			name = BalancedParanthesises;
+			sourceTree = "<group>";
+		};
+		B3D43E3A1D76D066006D37A8 /* JokkmokkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */,
+				B3D43E3D1D76D066006D37A8 /* Info.plist */,
+			);
+			path = JokkmokkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +208,24 @@
 			productReference = B3D43E0A1D76C70E006D37A8 /* Jokkmokk.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B3D43E381D76D066006D37A8 /* JokkmokkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D43E401D76D066006D37A8 /* Build configuration list for PBXNativeTarget "JokkmokkTests" */;
+			buildPhases = (
+				B3D43E351D76D066006D37A8 /* Sources */,
+				B3D43E361D76D066006D37A8 /* Frameworks */,
+				B3D43E371D76D066006D37A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D43E3F1D76D066006D37A8 /* PBXTargetDependency */,
+			);
+			name = JokkmokkTests;
+			productName = JokkmokkTests;
+			productReference = B3D43E391D76D066006D37A8 /* JokkmokkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -159,6 +237,10 @@
 				TargetAttributes = {
 					B3D43E091D76C70E006D37A8 = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					B3D43E381D76D066006D37A8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B3D43E091D76C70E006D37A8;
 					};
 				};
 			};
@@ -176,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				B3D43E091D76C70E006D37A8 /* Jokkmokk */,
+				B3D43E381D76D066006D37A8 /* JokkmokkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +274,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3D43E371D76D066006D37A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,13 +288,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D43E301D76C9A6006D37A8 /* Stack.m in Sources */,
 				B3D43E151D76C70E006D37A8 /* ViewController.m in Sources */,
 				B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */,
+				B3D43E341D76CB86006D37A8 /* BalancedParanthesises.m in Sources */,
 				B3D43E0F1D76C70E006D37A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3D43E351D76D066006D37A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D43E3F1D76D066006D37A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D43E091D76C70E006D37A8 /* Jokkmokk */;
+			targetProxy = B3D43E3E1D76D066006D37A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B3D43E161D76C70E006D37A8 /* Main.storyboard */ = {
@@ -332,6 +440,30 @@
 			};
 			name = Release;
 		};
+		B3D43E411D76D066006D37A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JokkmokkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.saidozcan.JokkmokkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jokkmokk.app/Jokkmokk";
+			};
+			name = Debug;
+		};
+		B3D43E421D76D066006D37A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JokkmokkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.saidozcan.JokkmokkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jokkmokk.app/Jokkmokk";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -349,6 +481,14 @@
 			buildConfigurations = (
 				B3D43E221D76C70E006D37A8 /* Debug */,
 				B3D43E231D76C70E006D37A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D43E401D76D066006D37A8 /* Build configuration list for PBXNativeTarget "JokkmokkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D43E411D76D066006D37A8 /* Debug */,
+				B3D43E421D76D066006D37A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
