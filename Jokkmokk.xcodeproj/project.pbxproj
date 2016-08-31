@@ -58,8 +58,8 @@
 		B3D43E0C1D76C70E006D37A8 /* Jokkmokk */ = {
 			isa = PBXGroup;
 			children = (
-				B3D43E291D76C77C006D37A8 /* Problems */,
 				B3D43E241D76C718006D37A8 /* Common */,
+				B3D43E291D76C77C006D37A8 /* Problems */,
 			);
 			path = Jokkmokk;
 			sourceTree = "<group>";
@@ -116,8 +116,16 @@
 		B3D43E291D76C77C006D37A8 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				B3D43E2B1D76C8DB006D37A8 /* New Group */,
 			);
 			name = Problems;
+			sourceTree = "<group>";
+		};
+		B3D43E2B1D76C8DB006D37A8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
