@@ -50,7 +50,6 @@
     }
     
     for (NSString *unbalancedString in unbalancedStreams){
-        
         XCTAssertFalse([self.balancedParanthesisDetector isParanthesisesBalanced:unbalancedString]);
     }
 }
