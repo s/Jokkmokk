@@ -9,10 +9,10 @@
 #import <XCTest/XCTest.h>
 #import "IntegerToAscii.h"
 
-@interface JokmokkIntegerToAsciiTests : XCTestCase
+@interface JokkmokkIntegerToAsciiTests : XCTestCase
 @end
 
-@implementation JokmokkIntegerToAsciiTests
+@implementation JokkmokkIntegerToAsciiTests
 
 - (void)setUp {
     [super setUp];
