@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface KTimesPresenceInArray : NSObject
-
+-(NSArray *)findElementsInArray:(NSArray *)theArray thatArePresentKTimes:(NSNumber *)K;
 @end
