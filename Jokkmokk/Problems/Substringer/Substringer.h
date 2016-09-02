@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Substringer : NSObject
-
++(BOOL)isStringA:(NSString *)A substringOfStringB:(NSString *)B;
 @end
