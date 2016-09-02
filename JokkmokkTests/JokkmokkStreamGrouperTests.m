@@ -7,16 +7,17 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "StreamGrouper.h"
 
 @interface JokkmokkStreamGrouperTests : XCTestCase
-
+@property (nonatomic, strong) StreamGrouper *grouper;
 @end
 
 @implementation JokkmokkStreamGrouperTests
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.grouper = [[StreamGrouper alloc] initWithStream:@"acababadabcacadabkabacashabaca"];
 }
 
 - (void)tearDown {
@@ -24,16 +25,12 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testStreamGrouper {
+    XCTAssertTrue([self.grouper countOfWordInStream:@"aca"] == 4);
+    XCTAssertTrue([self.grouper countOfWordInStream:@"ada"] == 2);
+    XCTAssertTrue([self.grouper countOfWordInStream:@"aba"] == 4);
+    XCTAssertTrue([self.grouper countOfWordInStream:@"bca"] == 1);
+    XCTAssertTrue([self.grouper countOfWordInStream:@"ba"] == 4);
 }
 
 @end

@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface StreamGrouper : NSObject
-
+-(instancetype)initWithStream:(NSString *)stream;
+-(NSInteger)countOfWordInStream:(NSString *)word;
 @end
