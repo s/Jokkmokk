@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface IntersectionOfArrays : NSObject
-
++(NSArray *)findTheElementsAtleastPresentIn2Arrays:(NSArray*)aList b:(NSArray*)bList c:(NSArray*)cList;
++(NSArray *)_findTheElementsAtleastPresentIn2Arrays:(NSArray*)aList b:(NSArray*)bList c:(NSArray*)cList;
 @end

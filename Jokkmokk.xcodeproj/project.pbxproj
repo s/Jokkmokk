@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B3170D081D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */; };
+		B3170D0C1D795BC6000D63BA /* Substringer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D0B1D795BC6000D63BA /* Substringer.m */; };
+		B3170D0E1D795E29000D63BA /* JokkmokkSubstringerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D0D1D795E29000D63BA /* JokkmokkSubstringerTests.m */; };
+		B3170D121D796C35000D63BA /* IntersectionOfArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D111D796C35000D63BA /* IntersectionOfArrays.m */; };
+		B3170D141D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */; };
 		B3C7A1BA1D76E38F00C36904 /* IntegerToAscii.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C7A1B91D76E38F00C36904 /* IntegerToAscii.m */; };
 		B3D43E0F1D76C70E006D37A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E0E1D76C70E006D37A8 /* main.m */; };
 		B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E111D76C70E006D37A8 /* AppDelegate.m */; };
@@ -40,6 +44,12 @@
 
 /* Begin PBXFileReference section */
 		B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkKTimesPresenceInArrayTests.m; sourceTree = "<group>"; };
+		B3170D0A1D795BC6000D63BA /* Substringer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Substringer.h; path = Problems/Substringer/Substringer.h; sourceTree = "<group>"; };
+		B3170D0B1D795BC6000D63BA /* Substringer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Substringer.m; path = Problems/Substringer/Substringer.m; sourceTree = "<group>"; };
+		B3170D0D1D795E29000D63BA /* JokkmokkSubstringerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkSubstringerTests.m; sourceTree = "<group>"; };
+		B3170D101D796C35000D63BA /* IntersectionOfArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntersectionOfArrays.h; path = Problems/IntersectionOfArrays/IntersectionOfArrays.h; sourceTree = "<group>"; };
+		B3170D111D796C35000D63BA /* IntersectionOfArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntersectionOfArrays.m; path = Problems/IntersectionOfArrays/IntersectionOfArrays.m; sourceTree = "<group>"; };
+		B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkIntersectionOfArraysTests.m; sourceTree = "<group>"; };
 		B3C7A1B81D76E38F00C36904 /* IntegerToAscii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntegerToAscii.h; path = Problems/IntegerToAscii/IntegerToAscii.h; sourceTree = "<group>"; };
 		B3C7A1B91D76E38F00C36904 /* IntegerToAscii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntegerToAscii.m; path = Problems/IntegerToAscii/IntegerToAscii.m; sourceTree = "<group>"; };
 		B3D43E0A1D76C70E006D37A8 /* Jokkmokk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokkmokk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,8 +105,19 @@
 		B3170D091D795A71000D63BA /* Substring */ = {
 			isa = PBXGroup;
 			children = (
+				B3170D0A1D795BC6000D63BA /* Substringer.h */,
+				B3170D0B1D795BC6000D63BA /* Substringer.m */,
 			);
 			name = Substring;
+			sourceTree = "<group>";
+		};
+		B3170D0F1D796746000D63BA /* IntersectionOfArrays */ = {
+			isa = PBXGroup;
+			children = (
+				B3170D101D796C35000D63BA /* IntersectionOfArrays.h */,
+				B3170D111D796C35000D63BA /* IntersectionOfArrays.m */,
+			);
+			name = IntersectionOfArrays;
 			sourceTree = "<group>";
 		};
 		B3C7A1B71D76E24800C36904 /* IntegerToAscii */ = {
@@ -187,6 +208,7 @@
 		B3D43E291D76C77C006D37A8 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				B3170D0F1D796746000D63BA /* IntersectionOfArrays */,
 				B3170D091D795A71000D63BA /* Substring */,
 				B3F261A61D794E49006D0771 /* KTimesPresenceInArray */,
 				B3F261A01D775DD4006D0771 /* StreamGrouper */,
@@ -236,6 +258,8 @@
 				B3F2619E1D774DAD006D0771 /* JokkmokkSortUserTests.m */,
 				B3F261A41D775FBA006D0771 /* JokkmokkStreamGrouperTests.m */,
 				B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */,
+				B3170D0D1D795E29000D63BA /* JokkmokkSubstringerTests.m */,
+				B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */,
 			);
 			path = JokkmokkTests;
 			sourceTree = "<group>";
@@ -381,11 +405,13 @@
 				B3F261A31D775E19006D0771 /* StreamGrouper.m in Sources */,
 				B3D43E151D76C70E006D37A8 /* ViewController.m in Sources */,
 				B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */,
+				B3170D0C1D795BC6000D63BA /* Substringer.m in Sources */,
 				B3F261921D76E7BB006D0771 /* Fibonacci.m in Sources */,
 				B3C7A1BA1D76E38F00C36904 /* IntegerToAscii.m in Sources */,
 				B3D43E341D76CB86006D37A8 /* BalancedParanthesises.m in Sources */,
 				B3F261A91D794E86006D0771 /* KTimesPresenceInArray.m in Sources */,
 				B3D43E0F1D76C70E006D37A8 /* main.m in Sources */,
+				B3170D121D796C35000D63BA /* IntersectionOfArrays.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,11 +419,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3170D141D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m in Sources */,
 				B3F261A51D775FBA006D0771 /* JokkmokkStreamGrouperTests.m in Sources */,
 				B3F2618E1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m in Sources */,
 				B3F2619F1D774DAD006D0771 /* JokkmokkSortUserTests.m in Sources */,
 				B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */,
 				B3F261971D76E8F9006D0771 /* JokkmokkFibonacciTests.m in Sources */,
+				B3170D0E1D795E29000D63BA /* JokkmokkSubstringerTests.m in Sources */,
 				B3170D081D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
