@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B300A7E71D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B300A7E61D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m */; };
+		B300A7EC1D7AD33400D74BC4 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B300A7EB1D7AD33400D74BC4 /* CustomView.m */; };
+		B300A7F01D7AD3F600D74BC4 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B300A7EF1D7AD3F600D74BC4 /* MyImageView.m */; };
+		B300A7F41D7AD4FC00D74BC4 /* FindCustomViews.m in Sources */ = {isa = PBXBuildFile; fileRef = B300A7F31D7AD4FC00D74BC4 /* FindCustomViews.m */; };
 		B3170D081D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */; };
 		B3170D0C1D795BC6000D63BA /* Substringer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D0B1D795BC6000D63BA /* Substringer.m */; };
 		B3170D0E1D795E29000D63BA /* JokkmokkSubstringerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D0D1D795E29000D63BA /* JokkmokkSubstringerTests.m */; };
@@ -43,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B300A7E61D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkFindCustomViewsTests.m; sourceTree = "<group>"; };
+		B300A7EA1D7AD33400D74BC4 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomView.h; path = CustomViews/CustomView.h; sourceTree = "<group>"; };
+		B300A7EB1D7AD33400D74BC4 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomView.m; path = CustomViews/CustomView.m; sourceTree = "<group>"; };
+		B300A7EE1D7AD3F600D74BC4 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageView.h; path = CustomViews/MyImageView.h; sourceTree = "<group>"; };
+		B300A7EF1D7AD3F600D74BC4 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageView.m; path = CustomViews/MyImageView.m; sourceTree = "<group>"; };
+		B300A7F21D7AD4FC00D74BC4 /* FindCustomViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCustomViews.h; sourceTree = "<group>"; };
+		B300A7F31D7AD4FC00D74BC4 /* FindCustomViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCustomViews.m; sourceTree = "<group>"; };
 		B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkKTimesPresenceInArrayTests.m; sourceTree = "<group>"; };
 		B3170D0A1D795BC6000D63BA /* Substringer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Substringer.h; path = Problems/Substringer/Substringer.h; sourceTree = "<group>"; };
 		B3170D0B1D795BC6000D63BA /* Substringer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Substringer.m; path = Problems/Substringer/Substringer.m; sourceTree = "<group>"; };
@@ -102,6 +113,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B300A7E91D7AD31700D74BC4 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B300A7EA1D7AD33400D74BC4 /* CustomView.h */,
+				B300A7EB1D7AD33400D74BC4 /* CustomView.m */,
+				B300A7EE1D7AD3F600D74BC4 /* MyImageView.h */,
+				B300A7EF1D7AD3F600D74BC4 /* MyImageView.m */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		B300A7ED1D7AD3DA00D74BC4 /* FindCustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B300A7F21D7AD4FC00D74BC4 /* FindCustomViews.h */,
+				B300A7F31D7AD4FC00D74BC4 /* FindCustomViews.m */,
+			);
+			name = FindCustomViews;
+			path = Problems/FindCustomViews;
+			sourceTree = "<group>";
+		};
 		B3170D091D795A71000D63BA /* Substring */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +203,7 @@
 				B3D43E101D76C70E006D37A8 /* AppDelegate.h */,
 				B3D43E111D76C70E006D37A8 /* AppDelegate.m */,
 				B3D43E261D76C737006D37A8 /* Assets */,
+				B300A7E91D7AD31700D74BC4 /* CustomViews */,
 				B3D43E251D76C72D006D37A8 /* Scenes */,
 				B3D43E271D76C73E006D37A8 /* Storyboards */,
 				B3D43E0D1D76C70E006D37A8 /* Supporting Files */,
@@ -208,16 +241,17 @@
 		B3D43E291D76C77C006D37A8 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
-				B3170D0F1D796746000D63BA /* IntersectionOfArrays */,
-				B3170D091D795A71000D63BA /* Substring */,
-				B3F261A61D794E49006D0771 /* KTimesPresenceInArray */,
-				B3F261A01D775DD4006D0771 /* StreamGrouper */,
-				B3F261981D76F5AD006D0771 /* SortUsers */,
+				B300A7ED1D7AD3DA00D74BC4 /* FindCustomViews */,
+				B3D43E311D76CB5F006D37A8 /* BalancedParanthesises */,
 				B3F2618F1D76E7A9006D0771 /* Fibonacci */,
 				B3C7A1B71D76E24800C36904 /* IntegerToAscii */,
-				B3D43E311D76CB5F006D37A8 /* BalancedParanthesises */,
+				B3170D0F1D796746000D63BA /* IntersectionOfArrays */,
+				B3F261A61D794E49006D0771 /* KTimesPresenceInArray */,
+				B3F261981D76F5AD006D0771 /* SortUsers */,
 				B3D43E2D1D76C97F006D37A8 /* Stack */,
 				B3D43E2B1D76C8DB006D37A8 /* StackProtocol */,
+				B3F261A01D775DD4006D0771 /* StreamGrouper */,
+				B3170D091D795A71000D63BA /* Substring */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -253,13 +287,14 @@
 			children = (
 				B3D43E3D1D76D066006D37A8 /* Info.plist */,
 				B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */,
-				B3F2618D1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m */,
 				B3F261961D76E8F9006D0771 /* JokkmokkFibonacciTests.m */,
+				B3F2618D1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m */,
+				B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */,
+				B300A7E61D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m */,
+				B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */,
 				B3F2619E1D774DAD006D0771 /* JokkmokkSortUserTests.m */,
 				B3F261A41D775FBA006D0771 /* JokkmokkStreamGrouperTests.m */,
-				B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */,
 				B3170D0D1D795E29000D63BA /* JokkmokkSubstringerTests.m */,
-				B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */,
 			);
 			path = JokkmokkTests;
 			sourceTree = "<group>";
@@ -349,6 +384,8 @@
 				TargetAttributes = {
 					B3D43E091D76C70E006D37A8 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z2EVZ5Y6JY;
+						ProvisioningStyle = Manual;
 					};
 					B3D43E381D76D066006D37A8 = {
 						CreatedOnToolsVersion = 7.3;
@@ -402,9 +439,12 @@
 			files = (
 				B3F2619B1D76F5CE006D0771 /* SortUsers.m in Sources */,
 				B3D43E301D76C9A6006D37A8 /* Stack.m in Sources */,
+				B300A7EC1D7AD33400D74BC4 /* CustomView.m in Sources */,
+				B300A7F41D7AD4FC00D74BC4 /* FindCustomViews.m in Sources */,
 				B3F261A31D775E19006D0771 /* StreamGrouper.m in Sources */,
 				B3D43E151D76C70E006D37A8 /* ViewController.m in Sources */,
 				B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */,
+				B300A7F01D7AD3F600D74BC4 /* MyImageView.m in Sources */,
 				B3170D0C1D795BC6000D63BA /* Substringer.m in Sources */,
 				B3F261921D76E7BB006D0771 /* Fibonacci.m in Sources */,
 				B3C7A1BA1D76E38F00C36904 /* IntegerToAscii.m in Sources */,
@@ -423,6 +463,7 @@
 				B3F261A51D775FBA006D0771 /* JokkmokkStreamGrouperTests.m in Sources */,
 				B3F2618E1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m in Sources */,
 				B3F2619F1D774DAD006D0771 /* JokkmokkSortUserTests.m in Sources */,
+				B300A7E71D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m in Sources */,
 				B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */,
 				B3F261971D76E8F9006D0771 /* JokkmokkFibonacciTests.m in Sources */,
 				B3170D0E1D795E29000D63BA /* JokkmokkSubstringerTests.m in Sources */,
@@ -548,10 +589,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Z2EVZ5Y6JY;
 				INFOPLIST_FILE = "Jokkmokk/Common/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.saidozcan.Jokkmokk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "12ee50c0-5f52-4e23-a420-3fa4210dcb08";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 			};
 			name = Debug;
 		};
@@ -559,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Jokkmokk/Common/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.saidozcan.Jokkmokk;
