@@ -16,6 +16,13 @@
 		B3170D0E1D795E29000D63BA /* JokkmokkSubstringerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D0D1D795E29000D63BA /* JokkmokkSubstringerTests.m */; };
 		B3170D121D796C35000D63BA /* IntersectionOfArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D111D796C35000D63BA /* IntersectionOfArrays.m */; };
 		B3170D141D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */; };
+		B35801F21D7C1E21002FA039 /* ConcurrentUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = B35801F11D7C1E21002FA039 /* ConcurrentUsers.m */; };
+		B35801F51D7C1EC5002FA039 /* LogUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B35801F41D7C1EC5002FA039 /* LogUser.m */; };
+		B35801F91D7C23FD002FA039 /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = B35801F81D7C23FD002FA039 /* Sorter.m */; };
+		B35802001D7C261E002FA039 /* JokkmokkSorterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B35801FF1D7C261E002FA039 /* JokkmokkSorterTests.m */; };
+		B35802041D7C301E002FA039 /* Merger.m in Sources */ = {isa = PBXBuildFile; fileRef = B35802031D7C301E002FA039 /* Merger.m */; };
+		B35802091D7C34E0002FA039 /* JokkmokkMergerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B35802081D7C34E0002FA039 /* JokkmokkMergerTests.m */; };
+		B358020E1D7C38EE002FA039 /* JokkmokkConcurrentUsersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B358020D1D7C38EE002FA039 /* JokkmokkConcurrentUsersTests.m */; };
 		B3C7A1BA1D76E38F00C36904 /* IntegerToAscii.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C7A1B91D76E38F00C36904 /* IntegerToAscii.m */; };
 		B3D43E0F1D76C70E006D37A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E0E1D76C70E006D37A8 /* main.m */; };
 		B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D43E111D76C70E006D37A8 /* AppDelegate.m */; };
@@ -61,6 +68,17 @@
 		B3170D101D796C35000D63BA /* IntersectionOfArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntersectionOfArrays.h; path = Problems/IntersectionOfArrays/IntersectionOfArrays.h; sourceTree = "<group>"; };
 		B3170D111D796C35000D63BA /* IntersectionOfArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntersectionOfArrays.m; path = Problems/IntersectionOfArrays/IntersectionOfArrays.m; sourceTree = "<group>"; };
 		B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkIntersectionOfArraysTests.m; sourceTree = "<group>"; };
+		B35801F01D7C1E21002FA039 /* ConcurrentUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcurrentUsers.h; path = Problems/ConcurrentUsers/ConcurrentUsers.h; sourceTree = "<group>"; };
+		B35801F11D7C1E21002FA039 /* ConcurrentUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcurrentUsers.m; path = Problems/ConcurrentUsers/ConcurrentUsers.m; sourceTree = "<group>"; };
+		B35801F31D7C1EC5002FA039 /* LogUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogUser.h; path = Problems/ConcurrentUsers/LogUser.h; sourceTree = "<group>"; };
+		B35801F41D7C1EC5002FA039 /* LogUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogUser.m; path = Problems/ConcurrentUsers/LogUser.m; sourceTree = "<group>"; };
+		B35801F71D7C23FD002FA039 /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sorter.h; path = Problems/Sorter/Sorter.h; sourceTree = "<group>"; };
+		B35801F81D7C23FD002FA039 /* Sorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sorter.m; path = Problems/Sorter/Sorter.m; sourceTree = "<group>"; };
+		B35801FF1D7C261E002FA039 /* JokkmokkSorterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkSorterTests.m; sourceTree = "<group>"; };
+		B35802021D7C301E002FA039 /* Merger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Merger.h; path = Problems/Merger/Merger.h; sourceTree = "<group>"; };
+		B35802031D7C301E002FA039 /* Merger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Merger.m; path = Problems/Merger/Merger.m; sourceTree = "<group>"; };
+		B35802081D7C34E0002FA039 /* JokkmokkMergerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkMergerTests.m; sourceTree = "<group>"; };
+		B358020D1D7C38EE002FA039 /* JokkmokkConcurrentUsersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokkmokkConcurrentUsersTests.m; sourceTree = "<group>"; };
 		B3C7A1B81D76E38F00C36904 /* IntegerToAscii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntegerToAscii.h; path = Problems/IntegerToAscii/IntegerToAscii.h; sourceTree = "<group>"; };
 		B3C7A1B91D76E38F00C36904 /* IntegerToAscii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntegerToAscii.m; path = Problems/IntegerToAscii/IntegerToAscii.m; sourceTree = "<group>"; };
 		B3D43E0A1D76C70E006D37A8 /* Jokkmokk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokkmokk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +170,35 @@
 			name = IntersectionOfArrays;
 			sourceTree = "<group>";
 		};
+		B35801EF1D7C1DF9002FA039 /* ConcurrentUsers */ = {
+			isa = PBXGroup;
+			children = (
+				B35801F01D7C1E21002FA039 /* ConcurrentUsers.h */,
+				B35801F11D7C1E21002FA039 /* ConcurrentUsers.m */,
+				B35801F31D7C1EC5002FA039 /* LogUser.h */,
+				B35801F41D7C1EC5002FA039 /* LogUser.m */,
+			);
+			name = ConcurrentUsers;
+			sourceTree = "<group>";
+		};
+		B35801F61D7C23E2002FA039 /* Sorter */ = {
+			isa = PBXGroup;
+			children = (
+				B35801F71D7C23FD002FA039 /* Sorter.h */,
+				B35801F81D7C23FD002FA039 /* Sorter.m */,
+			);
+			name = Sorter;
+			sourceTree = "<group>";
+		};
+		B35802011D7C3003002FA039 /* Merger */ = {
+			isa = PBXGroup;
+			children = (
+				B35802021D7C301E002FA039 /* Merger.h */,
+				B35802031D7C301E002FA039 /* Merger.m */,
+			);
+			name = Merger;
+			sourceTree = "<group>";
+		};
 		B3C7A1B71D76E24800C36904 /* IntegerToAscii */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,9 +288,12 @@
 		B3D43E291D76C77C006D37A8 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
-				B300A7ED1D7AD3DA00D74BC4 /* FindCustomViews */,
+				B35802011D7C3003002FA039 /* Merger */,
+				B35801F61D7C23E2002FA039 /* Sorter */,
 				B3D43E311D76CB5F006D37A8 /* BalancedParanthesises */,
+				B35801EF1D7C1DF9002FA039 /* ConcurrentUsers */,
 				B3F2618F1D76E7A9006D0771 /* Fibonacci */,
+				B300A7ED1D7AD3DA00D74BC4 /* FindCustomViews */,
 				B3C7A1B71D76E24800C36904 /* IntegerToAscii */,
 				B3170D0F1D796746000D63BA /* IntersectionOfArrays */,
 				B3F261A61D794E49006D0771 /* KTimesPresenceInArray */,
@@ -287,11 +337,14 @@
 			children = (
 				B3D43E3D1D76D066006D37A8 /* Info.plist */,
 				B3D43E3B1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m */,
+				B358020D1D7C38EE002FA039 /* JokkmokkConcurrentUsersTests.m */,
 				B3F261961D76E8F9006D0771 /* JokkmokkFibonacciTests.m */,
+				B300A7E61D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m */,
 				B3F2618D1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m */,
 				B3170D131D797172000D63BA /* JokkmokkIntersectionOfArraysTests.m */,
-				B300A7E61D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m */,
 				B3170D071D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m */,
+				B35802081D7C34E0002FA039 /* JokkmokkMergerTests.m */,
+				B35801FF1D7C261E002FA039 /* JokkmokkSorterTests.m */,
 				B3F2619E1D774DAD006D0771 /* JokkmokkSortUserTests.m */,
 				B3F261A41D775FBA006D0771 /* JokkmokkStreamGrouperTests.m */,
 				B3170D0D1D795E29000D63BA /* JokkmokkSubstringerTests.m */,
@@ -438,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F2619B1D76F5CE006D0771 /* SortUsers.m in Sources */,
+				B35801F21D7C1E21002FA039 /* ConcurrentUsers.m in Sources */,
 				B3D43E301D76C9A6006D37A8 /* Stack.m in Sources */,
 				B300A7EC1D7AD33400D74BC4 /* CustomView.m in Sources */,
 				B300A7F41D7AD4FC00D74BC4 /* FindCustomViews.m in Sources */,
@@ -445,12 +499,15 @@
 				B3D43E151D76C70E006D37A8 /* ViewController.m in Sources */,
 				B3D43E121D76C70E006D37A8 /* AppDelegate.m in Sources */,
 				B300A7F01D7AD3F600D74BC4 /* MyImageView.m in Sources */,
+				B35802041D7C301E002FA039 /* Merger.m in Sources */,
 				B3170D0C1D795BC6000D63BA /* Substringer.m in Sources */,
 				B3F261921D76E7BB006D0771 /* Fibonacci.m in Sources */,
 				B3C7A1BA1D76E38F00C36904 /* IntegerToAscii.m in Sources */,
 				B3D43E341D76CB86006D37A8 /* BalancedParanthesises.m in Sources */,
 				B3F261A91D794E86006D0771 /* KTimesPresenceInArray.m in Sources */,
 				B3D43E0F1D76C70E006D37A8 /* main.m in Sources */,
+				B35801F51D7C1EC5002FA039 /* LogUser.m in Sources */,
+				B35801F91D7C23FD002FA039 /* Sorter.m in Sources */,
 				B3170D121D796C35000D63BA /* IntersectionOfArrays.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,8 +521,11 @@
 				B3F2618E1D76E591006D0771 /* JokkmokkIntegerToAsciiTests.m in Sources */,
 				B3F2619F1D774DAD006D0771 /* JokkmokkSortUserTests.m in Sources */,
 				B300A7E71D7AD17A00D74BC4 /* JokkmokkFindCustomViewsTests.m in Sources */,
+				B35802001D7C261E002FA039 /* JokkmokkSorterTests.m in Sources */,
+				B358020E1D7C38EE002FA039 /* JokkmokkConcurrentUsersTests.m in Sources */,
 				B3D43E3C1D76D066006D37A8 /* JokkmokkBalancedParanthesisesTests.m in Sources */,
 				B3F261971D76E8F9006D0771 /* JokkmokkFibonacciTests.m in Sources */,
+				B35802091D7C34E0002FA039 /* JokkmokkMergerTests.m in Sources */,
 				B3170D0E1D795E29000D63BA /* JokkmokkSubstringerTests.m in Sources */,
 				B3170D081D795240000D63BA /* JokkmokkKTimesPresenceInArrayTests.m in Sources */,
 			);
