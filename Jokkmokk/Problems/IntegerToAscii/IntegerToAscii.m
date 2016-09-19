@@ -22,9 +22,9 @@
         return @"0";
     }
     
-    while (integer){
+    while (integer > 0){
         NSInteger remaining = integer % 10;
-        output = [NSString stringWithFormat:@"%d%@", remaining, output];
+        output = [NSString stringWithFormat:@"%ld%@", remaining, output];
         integer = integer / 10;
     }
     
